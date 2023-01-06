@@ -7,7 +7,8 @@ def DFS(m):
     while len(frontier)>0:
         currCell=frontier.pop()
         if currCell==(1,1):
-            break
+            break 
+            
         for d in 'ESNW':
             if m.maze_map[currCell][d]==True:
                 if d=='E':
